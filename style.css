@@ -13,7 +13,7 @@
 
 .hero div h1 {
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2.6rem;
     text-wrap: wrap;
     position: relative;
 }
@@ -69,9 +69,4 @@
     .svg-hero {
         display: none;
     }
-
-    /* .btn-hero {
-        background-color: #facc15;
-        border-radius: 10px;
-    } */
 }
