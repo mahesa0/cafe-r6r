@@ -4,7 +4,7 @@
 }
 
 .hero {
-    width: 100%;
+    background-size: cover;
     height: 100vh;
     background-image: url('/asset/bg-hero.png');
     background-image: cover;
@@ -65,6 +65,25 @@
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
+    .hero {
+        background-size: cover;
+        background-position: right;
+    }
+
+    .hero div h1 {
+        font-size: x-large;
+    }
+
+    .btn-hero a {
+        font-size: small;
+        padding: 0 12px;
+    }
+
+    .svg-hero svg {
+        width: 200px;
+        padding-left: 3.5rem;
+    }
+
     .eksplore {
         flex-direction: column-reverse;
     }
@@ -84,9 +103,6 @@
         display: flex;
     }
 
-    .svg-hero {
-        display: none;
-    }
 
 
 }
