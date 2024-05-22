@@ -50,11 +50,23 @@
     background-color: #FFD4BB;
 }
 
+.card-shadow {
+    box-shadow: 4px 4px 4px 1px rgba(173, 173, 173, 1);
+    -webkit-box-shadow: 4px 4px 4px 1px rgba(173, 173, 173, 1);
+    -moz-box-shadow: 4px 4px 4px 1px rgba(173, 173, 173, 1);
+}
+
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
     .eksplore {
+        flex-direction: column-reverse;
+    }
+
+    .card-comment {
         flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
     }
 }
 
@@ -69,4 +81,6 @@
     .svg-hero {
         display: none;
     }
+
+
 }
