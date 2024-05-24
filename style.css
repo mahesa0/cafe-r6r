@@ -65,6 +65,9 @@
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
+    .burger {
+        display: none;
+    }
 
     .hero {
         position: relative;
@@ -127,11 +130,5 @@
         align-items: center;
         justify-content: center;
         display: flex;
-    }
-}
-
-@media (min-width: 1024px) {
-    .burger {
-        visibility: hidden;
     }
 }
