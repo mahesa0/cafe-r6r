@@ -65,6 +65,7 @@
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
+
     .hero {
         position: relative;
         display: flex;
@@ -127,7 +128,10 @@
         justify-content: center;
         display: flex;
     }
+}
 
-
-
+@media (min-width: 1024px) {
+    .burger {
+        visibility: hidden;
+    }
 }
