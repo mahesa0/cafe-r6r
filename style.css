@@ -1,3 +1,5 @@
+/* index */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +16,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    position: relative;
 }
 
 .hero div h1 {
@@ -132,3 +133,36 @@
         display: flex;
     }
 }
+
+/* index end */
+
+/* about */
+
+.about {
+    background-color: #FEB932;
+    background-image: url('asset/bg-hero-about.png');
+    background-size: 15rem;
+    background-position-x: 95%;
+    background-position-y: 70%;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+
+.about h1 {
+    padding: 7.8rem 2rem 7.8rem 7.8rem;
+    font-size: 3rem;
+}
+
+@media (max-width: 812px) {
+    html body .about {
+        background-size: 8rem;
+        height: 48vh;
+    }
+
+    .about h1 {
+        font-size: 1.5rem;
+        padding: 4rem;
+    }
+}
+
+/* about end*/
