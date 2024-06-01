@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+.dropdown {
+    position: relative;
+}
+
 .hero {
     background-size: cover;
     height: 100vh;
@@ -64,14 +68,14 @@
 }
 
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
+
 @media (max-width: 800px) {
     .burger {
         display: none;
     }
 
     .hero {
-        position: relative;
+        /* position: relative; */
         display: flex;
         background-size: cover;
         background-position: right;
