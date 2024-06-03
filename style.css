@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+
 .dropdown {
     position: relative;
 }
@@ -62,6 +63,8 @@
 }
 
 .card-shadow {
+    max-width: 21rem;
+    /* max-height: 21rem; */
     box-shadow: 4px 4px 4px 1px rgba(173, 173, 173, 1);
     -webkit-box-shadow: 4px 4px 4px 1px rgba(173, 173, 173, 1);
     -moz-box-shadow: 4px 4px 4px 1px rgba(173, 173, 173, 1);
@@ -112,7 +115,7 @@
     }
 
     .card-shadow {
-        max-width: 95%;
+        /* max-width: 95%; */
     }
 
     .title-menu {
@@ -155,6 +158,15 @@
 .about h1 {
     padding: 7.8rem 2rem 7.8rem 7.8rem;
     font-size: 3rem;
+}
+
+.fitur {
+    background-color: #b7b7b7;
+    height: 85vh;
+}
+
+.fitur div div {
+    border-color: black;
 }
 
 @media (max-width: 812px) {
