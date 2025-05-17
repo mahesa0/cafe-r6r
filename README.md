@@ -2,8 +2,9 @@
 
 Ini adalah repository backend untuk Sistem Pendukung Keputusan Pemilihan Jurusan di SMK menggunakan metode Simple Additive Weighting (SAW). Aplikasi ini dibangun dengan Express.js dan menggunakan MongoDB untuk menyimpan data.
 
+__________________________________________________________________________________________________________________________________________________________________________________________
 
-🚀 Fitur Utama
+🚀 Fitur Utama:
 
 🔐 Autentikasi pengguna (register & login)
 
@@ -15,8 +16,9 @@ Ini adalah repository backend untuk Sistem Pendukung Keputusan Pemilihan Jurusan
 
 🔐 Proteksi endpoint dengan JWT
 
+__________________________________________________________________________________________________________________________________________________________________________________________
 
-🛠️ Teknologi yang Digunakan
+🛠️ Teknologi yang Digunakan:
 
 Node.js
 
